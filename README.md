@@ -1,12 +1,12 @@
-## Investigating Prime Sequences 
+# Investigating Prime Sequences 
 
-The code in this repository implements a series of primality tests in Rust and powers a command-line utility to compute prime sequences and display them on graphs.
+This repository contains a Rust implementation of various primality tests, which powers a command-line utility for computing and visualizing prime sequences.
 
-The distribution of primes and related numbers is not random, certain properties of the corresponding sequences can be visualized by drawing graphs such as the [Ulam Spiral](https://en.wikipedia.org/wiki/Ulam_spiral), such as this image marking the prime numbers from 1 to 1000000 in a spiral arrangement on a square lattice:
+The distribution of primes and related numbers is not random, and certain properties of the corresponding sequences can be visualized using graphs such as the [Ulam Spiral](https://en.wikipedia.org/wiki/Ulam_spiral). Here is an example marking the prime numbers from 1 to 1000000 in a spiral arrangement on a square lattice:
 
-![Ulam Spiral](Ulam_Spiral.png)
+<img src="Ulam_Spiral.png" alt="Ulam Spiral" width="80%"/>
 
-Recurring elements such as lines are visible. This software package allows for performing experimental mathematics on this topic, i.e. studying arbitrary sequences to ideentify properties and patterns.
+Recurring patterns emerge in the visualization, notably lines and intersections. This software package provides ways to perform experimental mathematics on this topic, i.e. to study arbitrary sequences to identify properties and patterns.
 
 
 ## Setup
